@@ -1,0 +1,31 @@
+{
+	"name": "blinktics",
+	"version": "1.0.0",
+	"description": "A simple blinks that implements Solana Blink Analytics",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx tsc",
+		"start": "node dist/index.js",
+		"dev": "nodemon src/index.ts"
+	},
+	"keywords": [
+		"Solana",
+		"Blinks",
+		"Analytics"
+	],
+	"author": "Ezedike-egwom Collins",
+	"license": "ISC",
+	"dependencies": {
+		"@solana/actions": "^1.6.4",
+		"@solana/web3.js": "^1.95.3",
+		"blinksights-sdk": "^1.0.9",
+		"express": "^4.19.2"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.21",
+		"dotenv": "^16.4.5",
+		"nodemon": "^3.1.4",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.5.4"
+	}
+}
